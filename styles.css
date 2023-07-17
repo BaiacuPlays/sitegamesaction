@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    
+    background-color: #5b0080e7;
+    color: #ffffff;
+}
+
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: #ecf0f1;
+    font-size: 18px;
+
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.store-front {
+    height: 500px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+
+
+section p {
+    margin-bottom: 8px;
+}
+
+section {
+    color:  #000000;
+}
+
+.store-front {
+    margin-right: 32px;
+}
+
+.container-flex {
+    display:flex;
+    list-style: none;
+
+}
+
+#titulo {
+    text-align: center;
+    width: 40%
+}
+
+section li {
+   padding-top: 115px;
+   padding-right: 50px;
+    
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: #113ed4b7 ;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+li img {
+    height: 200px;
+    width: 200px;
+}
+
+hr {
+    border: none; 
+    height: 5px; 
+    background-color:rgb(35, 10, 145); 
+    overflow: hidden; 
+    margin: 100px;
+}
+
+#linhaLoca {
+    height: 5px;
+    background-color: rgb(35, 10, 145);
+    margin: 90px ;
+ 
+   
+   
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    .container-flex {
+        display:block;
+    
+    }
+
+    .container {
+        max-width: 90%;
+    }
+
+    .store-front {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+    
+    section .container {
+        display: block;
+    }
+    
+    section {
+        padding: 24px 0;
+        display: block;
+    }
+    
+    section h2 {
+        margin-bottom: 16px;
+        display: block;
+    }
+    
+    section p {
+        margin-bottom: 8px;
+        display: block;
+    }
+    
+    #titulo {
+        max-width: 100%;
+        display:inline
+    }
+    
+   header .container {
+    flex-direction: column;
+   }
+
+   header h1 {
+    font-size: 1.5em;
+    
+   }
+
+   section h2 {
+   margin-top: 36px;
+   }
+
+   #sobreEprodutos {
+    margin-bottom: 15px;
+   }
+
+   #linhaLoca {
+    height: 5px;
+    background-color: rgb(35, 10, 145);
+    margin: 30px ;
+}
+
+}
+
+
+@media screen and (min-width:641px) and (max-width: 1023px) {
+  
+    .container {
+        max-width: 90%;
+    }
+
+
+    header {
+        max-width: 100%;
+    }
+}
+
+
